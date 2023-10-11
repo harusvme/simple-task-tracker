@@ -1,0 +1,52 @@
+.projectPage {
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+.projectList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projectItem {
+  background-color: #242424;
+  margin: 10px 0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.projectInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectName {
+  color: white;
+  text-decoration: none;
+}
+
+.deleteButton {
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.createProject {
+  display: flex;
+  align-items: center;
+}
+
+.createButton {
+  color: white;
+  background-color: #008000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}

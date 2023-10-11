@@ -1,0 +1,27 @@
+.taskForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.taskForm label {
+  margin-bottom: 8px;
+}
+
+.taskForm input[type="text"],
+.taskForm textarea,
+.taskForm input[type="date"],
+.taskForm input[type="number"],
+.taskForm select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.taskForm button {
+  color: #ffffff;
+  background-color: #569dff;
+  letter-spacing: 0.8px;
+}
